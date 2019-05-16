@@ -12,6 +12,6 @@ const component =
 
 
 
-console.log("Here we go!!!")
+console.log("Here we go with WIP3!!!")
 
 ReactDOM.render(component, mountNode);
