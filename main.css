@@ -1,3 +1,23 @@
 body {
   font-family: 'arial';
 }
+
+
+section p::before {
+  content: '"';
+  font-size: 38px;
+  color:red;
+}
+
+section p::first-letter {
+  font-size: 38px;
+
+}
+
+section p::first-line {
+  font-size: 23px;
+}
+
+section p::selection {
+  color: blue;
+}
